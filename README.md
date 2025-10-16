@@ -4,11 +4,205 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo - Davyd Molina</title>
-    <link rel="stylesheet" href="codigo.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.95em;
+        }
+        .contact-item::before {
+            content: "●";
+            color: #3498db;
+            font-size: 1.2em;
+        }
+        .contact-item a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact-item a:hover {
+            color: #5dade2;
+        }
+        main {
+            padding: 40px 30px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        section h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #3498db;
+            position: relative;
+        }
+        section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: #667eea;
+        }
+        .objetivo p {
+            text-align: justify;
+            font-size: 1.05em;
+            color: #555;
+            line-height: 1.8;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li {
+            padding: 10px 0 10px 30px;
+            position: relative;
+            color: #555;
+        }
+        ul li::before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        .job, .education-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+            border-radius: 5px;
+        }
+        .job h3, .education-item h3 {
+            color: #2c3e50;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        .job p, .education-item p {
+            color: #666;
+            font-size: 0.95em;
+        }
+        .cursos ul li {
+            background: #f8f9fa;
+            margin: 8px 0;
+            padding: 12px 12px 12px 35px;
+            border-radius: 5px;
+            transition: transform 0.2s, background 0.2s;
+        }
+        .cursos ul li:hover {
+            background: #e3f2fd;
+            transform: translateX(5px);
+        }
+        .habilidades ul li {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin: 10px 0;
+            padding: 15px 15px 15px 40px;
+            border-radius: 8px;
+            font-weight: 500;
+            box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
+        }
+        .habilidades ul li::before {
+            color: white;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+        footer p {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        footer a:hover {
+            color: #5dade2;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+            }
+            main {
+                padding: 30px 20px;
+            }
+            section h2 {
+                font-size: 1.5em;
+            }
+        }
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.6em;
+            }
+            header {
+                padding: 30px 20px;
+            }
+            main {
+                padding: 20px 15px;
+            }
+            section {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <!-- CABEÇALHO -->
         <header>
             <h1>DAVYD MOLINA</h1>
             <div class="contact-info">
@@ -87,5 +281,4 @@
         </footer>
     </div>
 </body>
-
 </html>
