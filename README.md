@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Davyd Molina</title>
+    <link rel="stylesheet" href="codigo.css">
+</head>
+<body>
+    <div class="container">
+        <!-- CABEÇALHO -->
+        <header>
+            <h1>DAVYD MOLINA</h1>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>📍 Bairro Sítio Cercado - Curitiba, PR</span>
+                </div>
+                <div class="contact-item">
+                    <span>📧 <a href="mailto:davydeduardo97@gmail.com">davydeduardo97@gmail.com</a></span>
+                </div>
+                <div class="contact-item">
+                    <span>📱 (41) 99813-0514</span>
+                </div>
+                <div class="contact-item">
+                    <span>💼 <a href="https://www.linkedin.com/in/davyd-eduardo" target="_blank">LinkedIn</a></span>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="objetivo">
+                <h2>Objetivo</h2>
+                <p>Desejo integrar-me à equipe, aplicando dedicação e atenção em atividades de atualização de sistemas, análise e resolução de problemas, sejam de qualquer tipo, procuro soluções que tornam os processos mais rápidos e inteligentes. Busco constantemente aprender novas habilidades e contribuir para o alcance dos objetivos da empresa.</p>
+            </section>
+            <section class="qualificacao">
+                <h2>Qualificação Profissional</h2>
+                <ul>
+                    <li>Conhecimento aprofundado em formas de uso de Inteligência Artificial (mais de 3 anos de estudo)</li>
+                    <li>Conhecimento básico em Programação e Desenvolvimento Web (HTML, CSS, JavaScript)</li>
+                </ul>
+            </section>
+            <section class="experiencia">
+                <h2>Experiência Profissional</h2>
+                <div class="job">
+                    <h3>Estagiário de TI</h3>
+                    <p><strong>COPEL</strong> | Atual</p>
+                </div>
+                <div class="job">
+                    <h3>Operador de Teleatendimento</h3>
+                    <p><strong>Concentrix</strong> | 10/03/2025 até 19/09/2025</p>
+                </div>
+            </section>
+            <section class="educacao">
+                <h2>Educação</h2>
+                <div class="education-item">
+                    <h3>Análise e Desenvolvimento de Sistemas</h3>
+                    <p><strong>Faculdade Positivo</strong> | Cursando</p>
+                </div>
+                <div class="education-item">
+                    <h3>Ensino Médio Completo</h3>
+                    <p><strong>Colégio Estadual Hasdruball Bellegard</strong></p>
+                </div>
+            </section>
+            <section class="cursos">
+                <h2>Cursos e Formações Complementares</h2>
+                <ul>
+                    <li>Curso de Informática (2024)</li>
+                    <li>Cursos de Programação Alura (2021 a 2024)</li>
+                    <li>Curso de Programação em Java básico (2025)</li>
+                    <li>Curso de Programação HTML básico (2025)</li>
+                    <li>Curso de Programação APIs e Serviços Web (2025)</li>
+                    <li>Curso de Programação SQL básico (2025)</li>
+                    <li>Curso de Programação Arquitetura de TI (2025)</li>
+                    <li>Curso de Programação - Visualização de Dados para Análise e Análise de Dados (2025)</li>
+                </ul>
+            </section>
+            <section class="habilidades">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Facilidade em trabalhar em equipe, boa comunicação, organização e flexibilidade para cumprir metas</li>
+                    <li>Dedicado, disciplinado, aprendo rápido e possuo iniciativa para lidar com desafios</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p><strong>Davyd Molina</strong></p>
+            <p>Conecte-se comigo: <a href="https://www.linkedin.com/in/davyd-eduardo" target="_blank">LinkedIn</a></p>
+        </footer>
+    </div>
+</body>
 
+</html>
